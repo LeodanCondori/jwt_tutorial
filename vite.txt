@@ -1,0 +1,4 @@
+npx create-vite your-project-name --template react
+npx create-vite . --template react
+npm create vite@latest
+npm create vite@latest my-vue-app -- --template vue
