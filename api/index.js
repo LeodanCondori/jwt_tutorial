@@ -98,7 +98,7 @@ app.post("/api/login", (req, res) => {
 
 const verify = (req, res, next) => {
   const authHeader = req.headers.authorization;
-  console.log(authHeader);
+  // console.log(authHeader);
   if (authHeader) {
     const token = authHeader.split(" ")[1];
     jwt.verify(token, "mySecretKey", (err, user) => {
